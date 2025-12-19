@@ -20,7 +20,7 @@ interface SayingsProps {
   sayings: string[];
 };
 
-const Sayings: React.FC<SayingsProps> = ({ sayings }) => {2
+const Sayings: React.FC<SayingsProps> = ({ sayings: _sayings }) => {
   return (
     <div className="relative w-full">
       <div className="w-full aspect-[680/130] relative">

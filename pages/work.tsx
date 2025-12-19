@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Image from 'next/image';
 
 import PageHeader from '@/components/PageHeader';
 import Footer from '@/components/Footer';
