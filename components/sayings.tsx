@@ -17,10 +17,11 @@ import React from 'react';
 
 // props
 interface SayingsProps {
-  sayings: string[];
+  sayings?: string[];
 };
 
-const Sayings: React.FC<SayingsProps> = ({ sayings: _sayings }) => {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const Sayings: React.FC<SayingsProps> = (_props) => {
   return (
     <div className="relative w-full">
       <div className="w-full aspect-[680/130] relative">
