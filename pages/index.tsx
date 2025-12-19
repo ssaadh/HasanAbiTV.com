@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { GetStaticProps } from 'next';
+import Link from 'next/link';
 
 import PageHeader from '@/components/PageHeader';
 import Footer from '@/components/Footer';
@@ -18,6 +19,19 @@ export default function Home() {
         <TopLinks />
 
         <LinkDirectory />
+
+        {/* Support/Work Links */}
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="text-center space-x-4">
+            <Link href="/support" className="text-purple-400 hover:text-purple-200 underline">
+              Support
+            </Link>
+            <span className="text-purple-600">|</span>
+            <Link href="/work" className="text-purple-400 hover:text-purple-200 underline">
+              My Work
+            </Link>
+          </div>
+        </div>
 
         <Footer />
       </div>
