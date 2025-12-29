@@ -54,6 +54,29 @@ export default function Support() {
             </p>
           </section>
 
+          {/* Services */}
+          <section className="mb-8">
+            <h2 className="text-xl font-bold text-purple-100 mb-4">Services</h2>
+            <p className="text-purple-200 mb-4">
+              Available for freelance coding, AI workflow consulting, and left-wing agitprop help.
+              Service deposits (10-20% commitment) available in tiers:
+            </p>
+            <ul className="list-disc list-inside text-purple-300 mb-4 space-y-1">
+              <li>Bronze</li>
+              <li>Silver</li>
+              <li>Gold</li>
+              <li>Platinum</li>
+            </ul>
+            <a
+              href="https://buymeacoffee.com/hrmtv.dev/extras"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-200 hover:text-white underline"
+            >
+              View services & deposit tiers →
+            </a>
+          </section>
+
           {/* Links */}
           <section className="mb-8">
             <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
@@ -64,6 +87,14 @@ export default function Support() {
                 className="bg-purple-600 hover:bg-purple-500 text-white font-bold py-3 px-6 rounded-lg transition-colors"
               >
                 Buy Me a Coffee
+              </a>
+              <a
+                href="https://buymeacoffee.com/hrmtv.dev/extras"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-purple-700 hover:bg-purple-600 text-white font-bold py-3 px-6 rounded-lg transition-colors"
+              >
+                Services Shop
               </a>
               <Link href="/work" className="text-purple-300 hover:text-purple-100 underline">
                 See full portfolio →

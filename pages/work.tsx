@@ -204,6 +204,12 @@ export default function Work() {
                 </a>
               </li>
               <li>
+                <a href="https://buymeacoffee.com/hrmtv.dev/extras" target="_blank" rel="noopener noreferrer" className="text-purple-200 hover:text-white underline">
+                  Services Shop
+                </a>
+                <span className="text-purple-400"> (Bronze, Silver, Gold, Platinum deposit tiers)</span>
+              </li>
+              <li>
                 <a href="https://github.com/ssaadh" target="_blank" rel="noopener noreferrer" className="text-purple-200 hover:text-white underline">
                   GitHub
                 </a>
