@@ -59,21 +59,60 @@ export default function Support() {
             <h2 className="text-xl font-bold text-purple-100 mb-4">Services</h2>
             <p className="text-purple-200 mb-4">
               Available for freelance coding, AI workflow consulting, and left-wing agitprop help.
-              Service deposits (10-20% commitment) available in tiers:
+              Service deposits (10-20% commitment) available in tiers. Prices are negotiable.
             </p>
-            <ul className="list-disc list-inside text-purple-300 mb-4 space-y-1">
-              <li>Bronze</li>
-              <li>Silver</li>
-              <li>Gold</li>
-              <li>Platinum</li>
-            </ul>
+            <p className="text-purple-300 mb-6">
+              Purchasing through the shop is preferred:
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+              <a
+                href="https://buymeacoffee.com/hrmtv.dev/e/492863"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center hover:opacity-80 transition-opacity"
+              >
+                <img src="/work/tier-bronze.png" alt="Bronze Tier" className="rounded-lg border border-purple-600 w-full mb-2" />
+                <span className="text-purple-200 font-semibold">Bronze</span>
+                <span className="block text-purple-300">$150</span>
+              </a>
+              <a
+                href="https://buymeacoffee.com/hrmtv.dev/e/492923"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center hover:opacity-80 transition-opacity"
+              >
+                <img src="/work/tier-silver.png" alt="Silver Tier" className="rounded-lg border border-purple-600 w-full mb-2" />
+                <span className="text-purple-200 font-semibold">Silver</span>
+                <span className="block text-purple-300">$250</span>
+              </a>
+              <a
+                href="https://buymeacoffee.com/hrmtv.dev/e/492924"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center hover:opacity-80 transition-opacity"
+              >
+                <img src="/work/tier-gold.png" alt="Gold Tier" className="rounded-lg border border-purple-600 w-full mb-2" />
+                <span className="text-purple-200 font-semibold">Gold</span>
+                <span className="block text-purple-300">$450</span>
+              </a>
+              <a
+                href="https://buymeacoffee.com/hrmtv.dev/e/492933"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center hover:opacity-80 transition-opacity"
+              >
+                <img src="/work/tier-platinum.png" alt="Platinum Tier" className="rounded-lg border border-purple-600 w-full mb-2" />
+                <span className="text-purple-200 font-semibold">Platinum</span>
+                <span className="block text-purple-300">$750</span>
+              </a>
+            </div>
             <a
               href="https://buymeacoffee.com/hrmtv.dev/extras"
               target="_blank"
               rel="noopener noreferrer"
               className="text-purple-200 hover:text-white underline"
             >
-              View services & deposit tiers →
+              View all in shop →
             </a>
           </section>
 
